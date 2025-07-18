@@ -31,4 +31,34 @@ As data analysts, we designed and implemented a complete data pipeline and gover
 - ● **Built professional dashboards**  
   Used **Excel** and **Power BI** to visualize attendance trends and withdrawal rates.....
 
+## 📊 Dashboards Preview
+
+### 📌 Students Attendance Dashboard
+![Attendance](Dashboard/Students_Attendance_Dashboard.png)
+
+### 📌 Student Change Requests Dashboard
+![Change Requests](Dashboard/Student_Change_Requests_Dashboard.png)
+
+### 📌 Student Engagement
+![Engagement](Dashboard/Student_Engagement.png)
+
+### 📌 Change New Joiners Dashboard
+![New Joiners](Dashboard/change_new_joiners_Dashboard.png)
+
+### 📌 Cohort Enrollment Completion
+![Cohort Enrollment](Dashboard/Cohort_Enrollment_Completion_Status_Dashboard.png)
+
+### 📌 Cohort Schedule
+![Cohort Schedule](Dashboard/Cohort_Schedule_Dashboard.png)
+
+### 📌 Data Quality - Cohort Courses
+![Cohort Courses](Dashboard/Data_Quality_Dashboard_Cohort_Courses_Table.png)
+
+### 📌 Data Quality - Attendance Table
+![Attendance Quality](Dashboard/Data_Quality_Dashboard_For_Attendance_Table.png)
+
+### 📌 Data Quality - Users Table
+![Users Quality](Dashboard/Data_Quality_Dashboard_Users_Table.png)
+
+
 ---
