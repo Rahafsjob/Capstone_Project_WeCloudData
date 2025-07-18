@@ -9,8 +9,6 @@ As data analysts, we designed and implemented a complete data pipeline and gover
 
 > The LMS originally relied on spreadsheets and manual updates, lacking a centralized database — which made it difficult to access, unify, and analyze student performance data effectively.
 
----
-
 ### ✅ Key Contributions
 
 - ● **Set up a local MySQL environment**  
@@ -29,36 +27,73 @@ As data analysts, we designed and implemented a complete data pipeline and gover
   Standardized formats and created normalized relational tables.
 
 - ● **Built professional dashboards**  
-  Used **Excel** and **Power BI** to visualize attendance trends and withdrawal rates.....
+  Used **Excel** and **Power BI** to visualize attendance trends and withdrawal rates.
 
-## 📊 Dashboards & Data Quality Visuals
+---
 
-### 🟣 Students Attendance Dashboard
+## 🖼️ Dashboards – Stage 1
+
+> These dashboards were created during the local integration phase to explore raw data, monitor cohort performance, and uncover initial insights.  
+They focus on student attendance, enrollment activity, and scheduling — giving a clear picture of how learners engage at the operational level.
+
+### 🟣 Students Attendance Dashboard  
 ![Attendance](Dashboard/Students_Attendance_Dashboard.png)
 
-### 🔄 Student Change Requests Dashboard
+### 🔄 Student Change Requests Dashboard  
 ![Change Requests](Dashboard/Student_Change_Requests_Dashboard.png)
 
-
-### 🧾 Change New Joiners Dashboard
+### 🧾 Change New Joiners Dashboard  
 ![New Joiners](Dashboard/change_new_joiners_Dashboard.png)
 
-### 🎓 Cohort Enrollment Completion
+### 🎓 Cohort Enrollment Completion  
 ![Cohort Enrollment](Dashboard/Cohort_Enrollment_Completion_Status.png)
 
-### 🗓️ Cohort Schedule
+### 🗓️ Cohort Schedule  
 ![Schedule](Dashboard/Cohort_Schedule.png)
-### 🔥 Student Engagement
+
+---
+
+## 🔷 Stage 2: Cloud Integration, Data Governance & Dashboard Development
+
+> After the initial local setup, we transitioned to a cloud-based architecture to enhance scalability, automate data pipelines, and implement robust data governance controls.
+
+### ✅ Key Contributions
+
+- ● **Migrated to a cloud MySQL database (AWS RDS)**  
+  Configured and connected an AWS RDS instance to enable centralized, secure data storage.
+
+- ● **Built automated ETL pipelines using Airbyte**  
+  Extracted and loaded data from local sources into the cloud environment efficiently.
+
+- ● **Cleaned and validated data using Python & SQL**  
+  Handled missing values, normalized formats, and ensured schema consistency.
+
+- ● **Implemented data governance checks**  
+  Applied DAMA framework principles to evaluate data quality dimensions: completeness, accuracy, consistency, and reliability.
+
+- ● **Performed data profiling and integrity tests**  
+  Detected data issues across LMS tables and developed rule-based quality checks.
+
+- ● **Created advanced dashboards in Power BI**  
+  Focused on engagement metrics, change requests, and quality scoring of LMS components.
+
+---
+
+## 🖼️ Dashboards – Stage 2
+
+> Built after cloud migration and quality checks, these dashboards focus on student engagement and data integrity.  
+They help track system usage, highlight quality issues in key LMS tables, and ensure data is trustworthy for reporting and decision-making.
+
+### 🔥 Student Engagement  
 ![Engagement](Dashboard/Student_Engagement.png)
 
-### 🧪 Data Quality - Cohort Courses
+### 🧪 Data Quality – Cohort Courses  
 ![Courses Quality](Dashboard/Data_Quality_Cohort_Courses_Table.png)
 
-### 📈 Data Quality - Attendance Table
+### 📈 Data Quality – Attendance Table  
 ![Attendance Quality](Dashboard/Data_Quality_Dashboard_For_Attendance_Table.png)
 
-### 👤 Data Quality - Users Table
+### 👤 Data Quality – Users Table  
 ![Users Quality](Dashboard/Data_Quality_Users_Table.png)
-
 
 ---
