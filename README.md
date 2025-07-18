@@ -39,8 +39,6 @@ As data analysts, we designed and implemented a complete data pipeline and gover
 ### 🔄 Student Change Requests Dashboard
 ![Change Requests](Dashboard/Student_Change_Requests_Dashboard.png)
 
-### 🔥 Student Engagement
-![Engagement](Dashboard/Student_Engagement.png)
 
 ### 🧾 Change New Joiners Dashboard
 ![New Joiners](Dashboard/change_new_joiners_Dashboard.png)
@@ -50,6 +48,8 @@ As data analysts, we designed and implemented a complete data pipeline and gover
 
 ### 🗓️ Cohort Schedule
 ![Schedule](Dashboard/Cohort_Schedule.png)
+### 🔥 Student Engagement
+![Engagement](Dashboard/Student_Engagement.png)
 
 ### 🧪 Data Quality - Cohort Courses
 ![Courses Quality](Dashboard/Data_Quality_Cohort_Courses_Table.png)
